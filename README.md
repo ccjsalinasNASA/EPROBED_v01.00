@@ -1,5 +1,5 @@
 # EPROBED_v01.00
-This is the repository for E-PROBED version 1.00.
+This is the repository for E-PROBED version 1.00. This was developed and is currently maintained by Cornelius Csar Jude H. Salinas, PhD of the Goddard Earth Sciences Technology and Research - II (GESTAR-2), a cooperative agreement between NASA Goddard Space Flight Center (NASA GSFC) and University of Maryland Baltimore County (UMBC). For more information, kindly contact Jude at cornelius.c.salinas@nasa.gov.
 
 E-PROBED version 1.0
 
