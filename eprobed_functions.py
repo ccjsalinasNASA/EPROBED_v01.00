@@ -5,11 +5,9 @@ Created on Fri May 17 21:32:25 2024
 @author: ccsalina
 """
 
-import math
 import numpy as np
 import matplotlib.pyplot as plt
 import netCDF4 as nc
-from netCDF4 import Dataset
 import shutil
 from scipy.interpolate import RegularGridInterpolator
 
