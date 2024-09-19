@@ -15,3 +15,8 @@ test_2D.py shall also be ran to test model. A single contour-filled plot of an E
 
 E-PROBED requires the following python packages:
 numpy, matplotlib, scipy, shutil, netCDF4
+
+Model citations:
+Salinas, C. C. J. H., Wu, D. L., Swarnalingam, N., Emmons, D., & Qian, L. (2024). Development of the ionospheric E‐region prompt radio occultation based electron density (E‐PROBED) model. Space Weather, 22, e2024SW004037. https://doi.org/10.1029/2024SW004037
+
+Salinas, C. C. J. (2024). EPROBED_v01.00. Zenodo. https://doi.org/10.5281/zenodo.13328319
