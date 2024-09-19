@@ -3,6 +3,8 @@ This is the repository for E-PROBED version 1.00. This was developed and is curr
 
 E-PROBED version 1.0
 
+Before using this model, kindly read and understand the entire development and preliminary validation paper: https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1029/2024SW004037. The paper is also uploaded separately in this repository.
+
 eprobed_functions.py contains all E-PROBED functions. 
 
 All netcdf files in this package contain E-PROBED coefficients.
