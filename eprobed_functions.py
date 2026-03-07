@@ -1048,7 +1048,7 @@ def eprobedFunc_lon_lat_ut_daily(input_lon,input_lat,input_alt,input_ut_hour,inp
     C_GPS = ncread('func_gps.nc','C_GPS')
     
     # Open solar cycle index.
-    fname_indices = 'solarGeomagnetic_daily_2000to2023.nc'
+    fname_indices = 'solarGeomagnetic_daily_2000to2025.nc'
     allIndex = ncread(fname_indices,'solarGeomagneticIndex')
     indices_year = allIndex[0,:]
     indices_doy = allIndex[1,:]
@@ -1122,7 +1122,7 @@ def eprobedFunc_lat_lst_daily(input_lat,input_alt,input_lst,input_doy,input_year
     C_GPS = ncread('func_gps.nc','C_GPS')
     
     # Open solar cycle index.
-    fname_indices = 'solarGeomagnetic_daily_2000to2023.nc'
+    fname_indices = 'solarGeomagnetic_daily_2000to2025.nc'
     allIndex = ncread(fname_indices,'solarGeomagneticIndex')
     indices_year = allIndex[0,:]
     indices_doy = allIndex[1,:]
@@ -1235,6 +1235,7 @@ def eprobedFunc_lat_lst_monthly(input_lat,input_alt,input_lst,input_month,input_
     ne_EPROBED = 1e11*nme*np.exp(0.5*(1-zprime-(gFunction*np.exp(-1*zprime))))
 
     return ne_EPROBED,z,params_SZA,params_ALL
+
 
 
 
